@@ -1,0 +1,49 @@
+unit unitReceitaInicial;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons,
+  Vcl.StdCtrls, Obj_Receita;
+
+type
+  TFormInclusaoReceita = class(TForm)
+    pnSuperior: TPanel;
+    spBotaoIncluir: TSpeedButton;
+    pnCentral: TPanel;
+    edtCodReceita: TEdit;
+    edtDescricaoReceita: TEdit;
+    DataVencimento: TEdit;
+    CodGrupoFinanceiro: TEdit;
+    PercentualJuro: TEdit;
+    PercentualMulta: TEdit;
+    Valor: TEdit;
+    lbCodReceita: TLabel;
+    lbDescricaoReceita: TLabel;
+    lbDataVencimento: TLabel;
+    lbCodGrupoFinanceiro: TLabel;
+    lbPercentualJuro: TLabel;
+    lbPercentualMulta: TLabel;
+    lbValor: TLabel;
+  private
+    procedure AbasteceObjeto;
+    ObjReceita : TReceita;
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormInclusaoReceita: TFormInclusaoReceita;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFormInclusaoReceita.AbasteceObjeto();
+begin
+
+end;
+
+end.

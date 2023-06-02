@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/05/30 21:22:52.948,=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 21:29:27.518,C:\Users\Sérgio Jach Jr\Desktop\Financas\unitInicial.pas=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 21:29:27.518,C:\Users\Sérgio Jach Jr\Desktop\Financas\unitInicial.dfm=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/05/30 21:29:35.697,C:\Users\Sérgio Jach Jr\Desktop\Financas\Financas.dproj=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/05/30 22:23:36.368,=C:\Users\Sérgio Jach Jr\Desktop\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 22:24:16.140,C:\Users\Sérgio Jach Jr\Desktop\Financas\unitReceita.dfm=C:\Users\Sérgio Jach Jr\Desktop\Financas\Unit1.dfm</Transaction>
+    <Transaction>2023/05/30 22:24:16.140,C:\Users\Sérgio Jach Jr\Desktop\Financas\unitReceita.pas=C:\Users\Sérgio Jach Jr\Desktop\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 22:33:48.506,=C:\Users\Sérgio Jach Jr\Desktop\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 22:34:42.885,C:\Users\Sérgio Jach Jr\Desktop\Financas\unitReceitaInicial.pas=C:\Users\Sérgio Jach Jr\Desktop\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 22:34:42.885,C:\Users\Sérgio Jach Jr\Desktop\Financas\unitReceitaInicial.dfm=C:\Users\Sérgio Jach Jr\Desktop\Financas\Unit1.dfm</Transaction>
+    <Transaction>2023/05/30 23:03:19.566,=C:\Users\Sérgio Jach Jr\Desktop\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 23:03:47.192,C:\Users\Sérgio Jach Jr\Desktop\Financas\Obj_Receita.pas=C:\Users\Sérgio Jach Jr\Desktop\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 23:11:12.711,=C:\Users\Sérgio Jach Jr\Desktop\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 23:11:31.250,C:\Users\Sérgio Jach Jr\Desktop\Financas\ReceitaDAO.pas=C:\Users\Sérgio Jach Jr\Desktop\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 23:12:13.483,=C:\Users\Sérgio Jach Jr\Desktop\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 23:12:23.145,C:\Users\Sérgio Jach Jr\Desktop\Financas\ConexoBancoDados.pas=C:\Users\Sérgio Jach Jr\Desktop\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 23:41:45.393,C:\Users\Sérgio Jach Jr\Desktop\Financas\unitReceitaInclusao.dfm=C:\Users\Sérgio Jach Jr\Desktop\Financas\unitReceitaInicial.dfm</Transaction>
+    <Transaction>2023/05/30 23:41:45.393,C:\Users\Sérgio Jach Jr\Desktop\Financas\unitReceitaInclusao.pas=C:\Users\Sérgio Jach Jr\Desktop\Financas\unitReceitaInicial.pas</Transaction>
+  </Transactions>
+</BorlandProject>

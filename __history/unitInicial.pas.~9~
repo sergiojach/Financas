@@ -1,0 +1,29 @@
+unit unitInicial;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.ExtCtrls,
+  Vcl.StdCtrls;
+
+type
+  TFormInicial = class(TForm)
+    pnSuperior: TPanel;
+    spBotaoReceita: TSpeedButton;
+    spBotaoDespesa: TSpeedButton;
+    pnCentral: TPanel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormInicial: TFormInicial;
+
+implementation
+
+{$R *.dfm}
+
+end.

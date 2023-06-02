@@ -1,0 +1,72 @@
+unit unitReceitaInicial;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons, System.DateUtils,
+  Vcl.StdCtrls, Obj_Receita;
+
+type
+  TFormInclusaoReceita = class(TForm)
+    pnSuperior: TPanel;
+    spBotaoIncluir: TSpeedButton;
+    pnCentral: TPanel;
+    edtCodReceita: TEdit;
+    edtDescricaoReceita: TEdit;
+    edtDataVencimento: TEdit;
+    CodGrupoFinanceiro: TEdit;
+    edtPercentualJuro: TEdit;
+    edtPercentualMulta: TEdit;
+    edtValor: TEdit;
+    lbCodReceita: TLabel;
+    lbDescricaoReceita: TLabel;
+    lbDataVencimento: TLabel;
+    lbCodGrupoFinanceiro: TLabel;
+    lbPercentualJuro: TLabel;
+    lbPercentualMulta: TLabel;
+    lbValor: TLabel;
+  private
+    { Private declarations }
+    ObjetoReceita: TReceita;
+    procedure AbasteceObjeto;
+  public
+    { Public declarations }
+    constructor Create(AOwner: TComponent); override;
+    destructor Destroy;
+  end;
+
+var
+  FormInclusaoReceita: TFormInclusaoReceita;
+
+implementation
+
+{$R *.dfm}
+
+constructor TFormInclusaoReceita.Create(AOwner: TComponent);
+begin
+  inherited;
+
+  ObjetoReceita := TReceita.Create();
+end;
+
+destructor TFormInclusaoReceita.Destroy;
+begin
+  ObjetoReceita.Free;
+end;
+
+procedure TFormInclusaoReceita.AbasteceObjeto();
+begin
+
+  ObjetoReceita.CodReceita := StrToInt(edtCodReceita.Text);
+  ObjetoReceita.DescricaoReceita := edtDescricaoReceita.Text;
+  ObjetoReceita.DataInclusao := edtDataVencimento.Text;
+  ObjetoReceita.DataVencimento := edtDataVencimento.Text;
+  ObjetoReceita.PercentualJuros := StrToFloat(edtPercentualJuro.Text);
+  ObjetoReceita.PercentualMulta := StrToFloat(edtPercentualMulta.Text);
+  ObjetoReceita.Valor := StrToFloat(edtValor.Text)
+
+end;
+
+
+end.

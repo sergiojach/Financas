@@ -1,0 +1,14 @@
+program Financas;
+
+uses
+  Vcl.Forms,
+  unitInicial in 'unitInicial.pas' {FormInicial};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormInicial, FormInicial);
+  Application.Run;
+end.
