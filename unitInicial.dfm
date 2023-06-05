@@ -21,6 +21,7 @@ object FormInicial: TFormInicial
     Align = alTop
     ParentBackground = False
     TabOrder = 0
+    ExplicitWidth = 1017
     object spBotaoDespesa: TSpeedButton
       AlignWithMargins = True
       Left = 174
@@ -6754,9 +6755,7 @@ object FormInicial: TFormInicial
     Enabled = False
     ParentBackground = False
     TabOrder = 1
-    ExplicitLeft = 320
-    ExplicitTop = 240
-    ExplicitWidth = 185
-    ExplicitHeight = 41
+    ExplicitWidth = 1017
+    ExplicitHeight = 579
   end
 end

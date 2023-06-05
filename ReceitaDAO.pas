@@ -13,6 +13,7 @@ type
   public
     procedure SalvarReceita(ObjetoReceita : TReceita);
     function CarregaCodigo: Integer;
+    function ConsultarReceita: TFDQuery;
 
   end;
 
@@ -49,6 +50,27 @@ begin
   Query.ExecSQL();
 
 end;
+
+function TReceitaDAO.ConsultarReceita: TFDQuery;
+var
+  Query : TFDQuery;
+begin
+  Query := TConexaoBancoDados.CriarQuery();
+
+  Query.SQL.Text := 'SELECT CodReceita,       ' + sLineBreak +
+                    '       DescricaoReceita, ' + sLineBreak +
+                    '       DataInclusao,     ' + sLineBreak +
+                    '       DataVencimento,   ' + sLineBreak +
+                    '       PercentualJuros,  ' + sLineBreak +
+                    '       PercentualMulta,  ' + sLineBreak +
+                    '       Valor             ' + sLineBreak +
+                    '  FROM Receita           ';
+
+  Query.Open();
+  Result := Query;
+
+end;
+
 
 function TReceitaDAO.CarregaCodigo(): Integer;
 var

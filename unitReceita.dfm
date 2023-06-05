@@ -10,6 +10,7 @@ object FormReceita: TFormReceita
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  OnCreate = FormCreate
   TextHeight = 15
   object pnSuperior: TPanel
     Left = 0
@@ -18,6 +19,7 @@ object FormReceita: TFormReceita
     Height = 110
     Align = alTop
     TabOrder = 0
+    ExplicitWidth = 1011
     object spBotaoIncluir: TSpeedButton
       AlignWithMargins = True
       Left = 6
@@ -3372,6 +3374,48 @@ object FormReceita: TFormReceita
         0000000000000000000000000000000000000000000000000000000000000000
         0000}
       OnClick = spBotaoIncluirClick
+    end
+  end
+  object pnSuperiorPesquisa: TPanel
+    Left = 0
+    Top = 110
+    Width = 1017
+    Height = 43
+    Align = alTop
+    TabOrder = 1
+    ExplicitWidth = 1011
+    object SpeedButton1: TSpeedButton
+      Left = 781
+      Top = 8
+      Width = 191
+      Height = 22
+      Caption = 'Localizar'
+      OnClick = SpeedButton1Click
+    end
+  end
+  object pnCentral: TPanel
+    Left = 0
+    Top = 153
+    Width = 1017
+    Height = 528
+    Align = alClient
+    TabOrder = 2
+    ExplicitWidth = 1011
+    ExplicitHeight = 519
+    object sgReceitas: TStringGrid
+      Left = 1
+      Top = 1
+      Width = 1015
+      Height = 526
+      Align = alClient
+      ColCount = 7
+      FixedCols = 0
+      RowCount = 1
+      FixedRows = 0
+      TabOrder = 0
+      OnDblClick = sgReceitasDblClick
+      ExplicitWidth = 1009
+      ExplicitHeight = 517
     end
   end
 end
