@@ -1,18 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2023/11/23 20:13:46.411,=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/11/23 20:13:57.431,C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Financas.dproj=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2023/11/23 20:14:25.841,C:\Delphi\Git\Financas\UnitFormInicial.dfm=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/11/23 20:14:25.841,C:\Delphi\Git\Financas\UnitFormInicial.pas=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/11/23 20:15:04.437,=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/11/23 20:15:36.818,C:\Delphi\Git\Financas\ConexaoBancoDados.pas=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/11/23 20:29:03.311,C:\Delphi\Git\Financas\Financas.dproj=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Financas.dproj</Transaction>
-    <Transaction>2023/11/23 20:32:12.340,=C:\Delphi\Git\Financas\Unit1.pas</Transaction>
-    <Transaction>2023/11/23 20:33:58.561,C:\Delphi\Git\Financas\View\UnitLancamentoReceita.pas=C:\Delphi\Git\Financas\Unit1.pas</Transaction>
-    <Transaction>2023/11/23 20:33:58.561,C:\Delphi\Git\Financas\View\UnitLancamentoReceita.dfm=C:\Delphi\Git\Financas\Unit1.dfm</Transaction>
-    <Transaction>2023/11/23 20:59:10.895,=C:\Delphi\Git\Financas\Unit1.pas</Transaction>
-    <Transaction>2023/11/23 21:00:30.850,C:\Delphi\Git\Financas\View\UnitInclusao.dfm=C:\Delphi\Git\Financas\Unit1.dfm</Transaction>
-    <Transaction>2023/11/23 21:00:30.850,C:\Delphi\Git\Financas\View\UnitInclusao.pas=C:\Delphi\Git\Financas\Unit1.pas</Transaction>
+	<Transactions>
+    <Transaction>2023/11/23 20:13:46.000.411,=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 20:13:57.000.431,C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Financas.dproj</Transaction>
+    <Transaction>2023/11/23 20:14:25.000.841,C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Delphi\Git\Financas\UnitFormInicial.dfm</Transaction>
+    <Transaction>2023/11/23 20:14:25.000.841,C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Delphi\Git\Financas\UnitFormInicial.pas</Transaction>
+    <Transaction>2023/11/23 20:15:04.000.437,=C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 20:15:36.000.818,C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Delphi\Git\Financas\ConexaoBancoDados.pas</Transaction>
+    <Transaction>2023/11/23 20:29:03.000.311,C:\Users\Sérgio Jach Jr\Documents\Embarcadero\Studio\Projects\Financas.dproj=C:\Delphi\Git\Financas\Financas.dproj</Transaction>
+    <Transaction>2023/11/23 20:32:12.000.340,=C:\Delphi\Git\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 20:33:58.000.561,C:\Delphi\Git\Financas\Unit1.dfm=C:\Delphi\Git\Financas\View\UnitLancamentoReceita.dfm</Transaction>
+    <Transaction>2023/11/23 20:33:58.000.561,C:\Delphi\Git\Financas\Unit1.pas=C:\Delphi\Git\Financas\View\UnitLancamentoReceita.pas</Transaction>
+    <Transaction>2023/11/23 20:59:10.000.895,=C:\Delphi\Git\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 21:00:30.000.850,C:\Delphi\Git\Financas\Unit1.pas=C:\Delphi\Git\Financas\View\UnitInclusao.pas</Transaction>
+    <Transaction>2023/11/23 21:00:30.000.850,C:\Delphi\Git\Financas\Unit1.dfm=C:\Delphi\Git\Financas\View\UnitInclusao.dfm</Transaction>
+    <Transaction>2023/11/27 20:30:56.188,=C:\Delphi\Git\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/11/27 20:31:36.723,C:\Delphi\Git\Financas\View\UnitFrameLancamentoFinanceiro.pas=C:\Delphi\Git\Financas\Unit1.pas</Transaction>
+    <Transaction>2023/11/27 20:31:36.723,C:\Delphi\Git\Financas\View\UnitFrameLancamentoFinanceiro.dfm=C:\Delphi\Git\Financas\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

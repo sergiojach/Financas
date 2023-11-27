@@ -31,8 +31,9 @@ uses
 
 procedure TFormLancamentoReceita.spbIncluirClick(Sender: TObject);
 begin
-  var FInclusao := TInclusao.Create(Self);
+  var FInclusao := TInclusao.Create(Application);
   try
+    //Self.Hide;
     FInclusao.ShowModal();
   finally
     FInclusao.Free();

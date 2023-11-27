@@ -113,6 +113,11 @@
             <Form>Inclusao</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="View\UnitFrameLancamentoFinanceiro.pas">
+            <Form>FrameGradeInclusao</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

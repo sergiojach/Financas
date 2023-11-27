@@ -19,6 +19,7 @@ object FormLancamentoReceita: TFormLancamentoReceita
     Height = 113
     Align = alTop
     TabOrder = 0
+    ExplicitWidth = 1033
     object spbIncluir: TSpeedButton
       Left = 24
       Top = 16
@@ -35,6 +36,7 @@ object FormLancamentoReceita: TFormLancamentoReceita
     Height = 88
     Align = alTop
     TabOrder = 1
+    ExplicitWidth = 1033
     object Edit1: TEdit
       Left = 120
       Top = 24
@@ -51,10 +53,8 @@ object FormLancamentoReceita: TFormLancamentoReceita
     Height = 359
     Align = alClient
     TabOrder = 2
-    ExplicitLeft = 8
-    ExplicitTop = 207
-    ExplicitWidth = 1023
-    ExplicitHeight = 265
+    ExplicitWidth = 1033
+    ExplicitHeight = 350
   end
   object pnlRodape: TPanel
     Left = 0
@@ -63,7 +63,8 @@ object FormLancamentoReceita: TFormLancamentoReceita
     Height = 66
     Align = alBottom
     TabOrder = 3
-    ExplicitTop = 566
+    ExplicitTop = 551
+    ExplicitWidth = 1033
     object Label1: TLabel
       Left = 408
       Top = 16

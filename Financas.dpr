@@ -5,7 +5,8 @@ uses
   UnitFormInicial in 'UnitFormInicial.pas' {FormInicial},
   ConexaoBancoDados in 'ConexaoBancoDados.pas',
   UnitLancamentoReceita in 'View\UnitLancamentoReceita.pas' {FormLancamentoReceita},
-  UnitInclusao in 'View\UnitInclusao.pas' {Inclusao};
+  UnitInclusao in 'View\UnitInclusao.pas' {Inclusao},
+  UnitFrameLancamentoFinanceiro in 'View\UnitFrameLancamentoFinanceiro.pas' {FrameGradeInclusao: TFrame};
 
 {$R *.res}
 
